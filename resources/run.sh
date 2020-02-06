@@ -1,6 +1,6 @@
 #!/bin/sh
 JSON_SERVER=/json-server
-DATA=$JSON_SERVER/data
+DATA=/data
 
 DB_FILE=$DATA/db.json
 if [ ! -z "$DB_URL" ]; then

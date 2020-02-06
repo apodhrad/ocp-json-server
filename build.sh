@@ -1,5 +1,5 @@
 #!/bin/sh
-TAG="0.1"
+TAG="0.2"
 DOCKER_IMAGE_NAME=docker.io/apodhrad/ocp-json-server
 
 docker rmi --force=true ${DOCKER_IMAGE_NAME}:${TAG}
